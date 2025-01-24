@@ -11,16 +11,16 @@ The repository is organized as follows:
 ```
 /toolbox 
   ├── /<use-case-folder> 
-      ├── README.md # General use-case description and instructions 
-          input.pdf # Resources needed accross the different samples
-          ├── /<language-folder> # Language-specific implementations 
+      ├── README.md                # General use-case description and instructions 
+          input.pdf                # Resources needed accross the different samples
+          ├── /<language-folder>   # Language-specific implementations 
               ├── <sample-code-and-config>
 
 /tools-sdk 
   ├── /<use-case-folder> 
       ├── README.md
           input.pdf
-          ├── /<language-folder> # Language-specific implementations 
+          ├── /<language-folder> 
               ├── <sample-code-and-config>
 ```
 
@@ -29,6 +29,6 @@ The repository is organized as follows:
 ### Clone the Repository
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/<username>/<repository-name>.git
-cd <repository-name>
+[git clone https://github.com/<username>/<repository-name>.git](https://github.com/pdf-tools/components-code-sample-hub.git)
+cd components-code-sample-hub.git
 ```
