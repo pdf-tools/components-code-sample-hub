@@ -8,6 +8,7 @@ This repository contains sample code for the **PDF Tools SDK** and the **Toolbox
 
 The repository is organized as follows:
 
+```
 /toolbox 
   ├── /<use-case-folder> 
       ├── README.md # General use-case description and instructions 
@@ -21,3 +22,13 @@ The repository is organized as follows:
           input.pdf
           ├── /<language-folder> # Language-specific implementations 
               ├── <sample-code-and-config>
+```
+
+## Getting Started
+
+### Clone the Repository
+Clone this repository to your local machine:
+```bash
+git clone https://github.com/<username>/<repository-name>.git
+cd <repository-name>
+```
