@@ -1,6 +1,6 @@
 # PDF Tools Sample Code Repository
 
-This repository contains sample code for the **PDF Tools SDK** and the **Toolbox Addon**, providing implementations for various use cases across multiple programming languages. It is designed to help developers integrate PDF functionalities into their applications with ease.
+This repository contains sample codes for the **PDF Tools SDK** and the **Toolbox Addon**, providing implementations for various use cases across multiple programming languages. It is designed to help developers integrate PDF functionalities into their applications with ease.
 
 ---
 
@@ -12,7 +12,7 @@ The repository is organized as follows:
 /toolbox 
   ├── /<use-case-folder> 
       ├── README.md                # General use-case description and instructions 
-          input.pdf                # Resources needed accross the different samples
+          input.pdf                # Resources examples that can be used to execute the sample 
           ├── /<language-folder>   # Language-specific implementations 
               ├── <sample-code-and-config>
 
