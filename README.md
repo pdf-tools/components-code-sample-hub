@@ -4,9 +4,15 @@ This repository contains sample codes for the **PDF Tools SDK** and the **Toolbo
 
 ---
 
+## Sample Organization
+
+Each sample (or use case) is organized into a dedicated folder. Within each folder:
+* A general README.md provides instructions on how to execute the sample in all supported programming languages.
+* The folder may also contain test files that can be used to run and validate the sample.
+
 ## Repository Structure
 
-The repository is organized as follows:
+The repository follows this structure:
 
 ```
 /toolbox 
