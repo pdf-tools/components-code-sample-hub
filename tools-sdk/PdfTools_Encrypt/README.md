@@ -28,12 +28,25 @@ By cloning and using this kit, you accept PDF Tools AG's [license agreement](htt
 2. Follow the language-specific instructions below:
 
 #### **C**
+
+**Via command line:**
+
 1. navigate to the `c` folder to find the file `CMakeLists.txt`
 2. Execute the following command lines
     ```bash
     cmake .
     cmake --build .
     ./pdftoolsencrypt <password> <inputPath> <outputPath>
+    ```
+
+**Via Visual Studio:**
+
+1. At least Visual Studio 2019 installed
+2. Double click on `pdftoolsencrypt.vcxproj`
+3. Compile project in Visual Studio
+4. Run:
+    ```
+    `PdfToolsEncrypt.exe <password> <inputPath> <outputPath>`
     ```
 
 #### **C#**
