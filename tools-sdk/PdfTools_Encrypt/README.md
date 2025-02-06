@@ -17,6 +17,9 @@ By cloning and using this kit, you accept PDF Tools AG's [license agreement](htt
   - **C#**: Ensure that a supported version of .NET is installed:
             .NET and .NET Core: 2.0, 2.1, 2.2, 3.0, 3.1, 5.0, 6.0, 7.0, 8.0
             .NET Framework: 4.6.1, 4.6.2, 4.7, 4.7.1, 4.7.2, 4.8, 4.8.1
+  - **Java**: Java Development Kit (JDK)
+              "Eclipse IDE" or "IntelliJ IDEA"
+              "Maven" and/or "Gradle" installed if you want to run the program from the command line (optional, as the IDEs handle this).
   - **Python**: Python 3.7 or higher
                 On some systems, mostly Linux based ones, only Python 3 is installed and `python` is not aliased, so on these systems you need to run `python3` instead.
 - Ensure all dependencies (e.g., libraries) for the selected language are properly installed.
@@ -72,19 +75,49 @@ By cloning and using this kit, you accept PDF Tools AG's [license agreement](htt
 
 **Via Eclipse:**
 
-1. Import present .project file into Eclipse. The source file `PdfToolsEncrypt.java` is compiled automatically.
-2. Start new Java application and pass arguments of the form `<password> <inputPath> <outputPath>`.
+#### Importing as a Maven Project
+
+1. Open **Eclipse**.
+2. Navigate to **File** > **Import**.
+3. Select **Maven** > **Existing Maven Projects** and click **Next**.
+4. Browse to the project's root directory and click **Finish**.
+
+#### Importing as a Gradle Project
+
+1. Open **Eclipse**.
+2. Navigate to **File** > **Import**.
+3. Select **Gradle** > **Existing Gradle Project** and click **Next**.
+4. Browse to the project's root directory and click **Finish**.
+
+### Using IntelliJ IDEA
+
+1. Open **IntelliJ IDEA**.
+2. Go to **File** > **Open**.
+3. Select the project's root directory.
+4. IntelliJ IDEA will automatically detect both `pom.xml` and `build.gradle` files in the directory.
+5. IntelliJ will prompt you to choose whether to import the project as a **Maven** or **Gradle** project. Select your preferred option.
+6. Follow the on-screen instructions to configure the project.
+
+### Notes for IntelliJ IDEA
+
+- Ensure that the IDE downloads the necessary dependencies by enabling the auto-import feature for Maven/Gradle.
+- You can verify and modify the build system settings in **File** > **Project Structure**.
 
 **Via command line:**
 
-1. Compile the Java source file:
-    ```
-    `javac -cp jar/com.pdftools.jar;. PdfToolsEncrypt.java`
-    ```
-2. Execute:
-    ```
-    `java -cp jar/com.pdftools.jar;bin;. PdfToolsEncrypt <password> <inputPath> <outputPath>`
-    ```
+### Using Maven
+
+  ```bash
+  mvn clean install
+  mvn exec:java -Dexec.mainClass="PdfToolsEncrypt.PdfToolsEncrypt" -Dexec.args="<password> <inputPath> <outputPath>"
+  ```
+
+### Using Gradle
+
+  ```bash
+  gradle build
+  ./gradlew run --args="<password> <inputPath> <outputPath>"
+  ```
 
 Native library: Either way the library PdfToolsSdk.dll/.so/.dylib matching your operating system and the bitness of your JRE is loaded automatically by the sample.
 
