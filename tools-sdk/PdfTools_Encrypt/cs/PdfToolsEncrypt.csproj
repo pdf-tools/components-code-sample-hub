@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup>
+      <TargetFrameworks>net6.0</TargetFrameworks>
+      <OutputType>Exe</OutputType>
+      <Nullable>disable</Nullable>
+      <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Company>PDF Tools AG</Company>
+    <Product>PdfToolsEncrypt</Product>
+    <Copyright>Copyright © PDF Tools AG 2025</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PdfTools" Version="1.5.0" />
+  </ItemGroup>
+</Project>
