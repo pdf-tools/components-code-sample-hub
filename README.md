@@ -1,18 +1,18 @@
-# PDF Tools Sample Code Repository
+# Pdftools Sample Code Repository
 
-This repository contains sample codes for the **Pdftools SDK** and the **Toolbox add-on**, providing implementations for various use cases across multiple programming languages. It is designed to help developers integrate PDF functionalities into their applications with ease.
+This repository contains sample code demonstrating the **Pdftools SDK** and the **Toolbox add-on**. It offers implementations for various use cases across multiple programming languages and is designed to assist developers in seamlessly integrating PDF functionalities into their applications.
 
 ---
 
-## Sample Organization
+## Sample organization
 
-Each sample (or use case) is organized into a dedicated folder. Within each folder:
-* A general README.md provides instructions on how to execute the sample in all supported programming languages.
-* The folder may also contain test files that can be used to run and validate the sample.
+Each sample is organized into a dedicated folder. Within each folder, you can find the following:
+* A general `README.md` with instructions on how to execute the sample in all supported programming languages.
+* The folder may contain test files that you can use to run and validate the sample.
 
-## Repository Structure
+## Repository structure
 
-The repository follows this structure:
+This repository has the following structure:
 
 ```
 /toolbox 
@@ -30,11 +30,10 @@ The repository follows this structure:
               ├── <sample-code-and-config>
 ```
 
-## Getting Started
+## Getting started
 
-### Clone the Repository
-Clone this repository to your local machine:
-```bash
-git clone https://github.com/pdf-tools/components-code-sample-hub.git
-cd components-code-sample-hub.git
-```
+1. Clone this repository to your local machine:
+    ```bash
+    git clone https://github.com/pdf-tools/components-code-sample-hub.git
+    cd components-code-sample-hub.git
+    ```
