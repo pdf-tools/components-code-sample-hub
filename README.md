@@ -1,14 +1,14 @@
 # Pdftools Sample Code Repository
 
-This repository contains sample code demonstrating the **Pdftools SDK** and the **Toolbox add-on**. It offers implementations for various use cases across multiple programming languages and is designed to assist developers in seamlessly integrating PDF functionalities into their applications.
+This repository contains sample projects demonstrating the **Pdftools SDK** and the **Toolbox add-on**. It offers implementations for various use cases across multiple programming languages and is designed to assist developers in seamlessly integrating PDF functionalities into their applications.
 
 ---
 
-## Sample organization
+## Organization of samples
 
-Each sample is organized into a dedicated folder. Within each folder, you can find the following:
-* A general `README.md` with instructions on how to execute the sample in all supported programming languages.
-* The folder may contain test files that you can use to run and validate the sample.
+Each use case is contained in its own folder. Within each folder, you can find the following:
+* A general `README.md` with instructions on how to execute the sample in each supported programming language.
+* You may find test files that you can use to test the sample.
 
 ## Repository structure
 
