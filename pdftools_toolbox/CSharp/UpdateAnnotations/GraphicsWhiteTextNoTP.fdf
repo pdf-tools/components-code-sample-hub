@@ -1,0 +1,110 @@
+%FDF-1.2
+%‚„œ”
+
+1 0 obj
+<<
+/Subtype /Text
+/Rect [10 812 28 832]
+/Contents (Hello world!)
+/NM (8191cd10-0e51-4876-abdc-efca7eef873e)
+/M (D:20241001142528+02'00)
+/F 28
+/Border [0 0 0]
+/C [0 1 0]
+/Popup 2 0 R
+/CreationDate (D:20241001142528+02'00)
+/Page 0
+>>
+endobj
+2 0 obj
+<<
+/Subtype /Popup
+/Rect [405 712 585 832]
+/F 28
+/Border [0 0 0]
+/Parent 1 0 R
+/Page 0
+>>
+endobj
+3 0 obj
+<<
+/Subtype /Circle
+/Rect [10 782 70 822]
+/NM (9ad088f1-e99a-411d-866e-5258dfbf614d)
+/M (D:20241001142528+02'00)
+/F 4
+/Border [0 0 1.5]
+/C [0 0 1]
+/Popup 4 0 R
+/CreationDate (D:20241001142528+02'00)
+/IC [1 1 0]
+/Page 0
+>>
+endobj
+4 0 obj
+<<
+/Subtype /Popup
+/Rect [405 712 585 832]
+/F 28
+/Border [0 0 0]
+/Parent 3 0 R
+/Page 0
+>>
+endobj
+5 0 obj
+<<
+/Subtype /FreeText
+/Rect [10 672 120 772]
+/DA (0 g /Helv 12 Tf)
+/Contents (Lorem ipsum dolor sit amet, consectetur adipiscing elit.)
+/NM (1f9f62db-981f-4afd-8337-b71c4170e873)
+/M (D:20241001142528+02'00)
+/F 4
+/BS <<
+/W 0
+>>
+/C [1 1 0]
+/CreationDate (D:20241001142528+02'00)
+/CA 0.5
+/Page 0
+>>
+endobj
+6 0 obj
+<<
+/Subtype /Highlight
+/Rect [60 58 535 66]
+/QuadPoints [60 66 205.992 66 60 58 205.992 58 441.688 66 535 66 441.688 58 535 58]
+/NM (73f8262b-dea0-492c-995a-203e5dfed561)
+/M (D:20241001142529+02'00)
+/F 4
+/Border [0 0 0]
+/C [1 1 0]
+/Popup 7 0 R
+/CreationDate (D:20241001142529+02'00)
+/Page 0
+>>
+endobj
+7 0 obj
+<<
+/Subtype /Popup
+/Rect [405 10 585 130]
+/F 28
+/Border [0 0 0]
+/Parent 6 0 R
+/Page 0
+>>
+endobj
+8 0 obj
+<<
+/FDF <<
+/Annots [2 0 R 1 0 R 4 0 R 3 0 R 5 0 R 7 0 R 6 0 R]
+/F <>
+/ID [<8B1297278E67C8606B667D6B861C1E02> <F17A92189058647A2C2AFA6A4F488760>]
+>>
+>>
+endobj
+trailer
+<<
+/Root 8 0 R
+>>
+%%EOF

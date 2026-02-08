@@ -1,0 +1,71 @@
+{
+    "size": "130pt 90pt",
+    "content": [
+        {
+            "image": "DigitalSignature.jpg"
+        },
+        {
+            "pdf": "butterfly.pdf",
+            "margin-left": "110pt",
+            "width": "12pt",
+            "height": "12pt",
+            "margin-top": "5pt"
+        },
+        {
+            "image": "pdftools-icon.png",
+            "margin-left": "114pt",
+            "width": "8pt",
+            "margin-top": "79pt"
+        },
+        {
+            "margin-top": "20pt",
+            "margin-left": "1pt",
+            "text-align": "left",
+            "font-size": "10",
+            "text": [
+                "Signed by: ",
+                {
+                    "color": "1 0.2 0",
+                    "font": "Bell MT Bold",
+                    "text-mode": "stroke",
+                    "text": "Max Muster"
+                }
+            ]
+        },
+        {
+            "margin-top": "43pt",
+            "margin-left": "1pt",
+            "text-align": "left",
+            "font-size": "6",
+            "text": [
+                "Signing date: ",
+                {
+                    "font": "Courier",
+                    "color": "0.2 0.2 0.2",
+                    "text": "[signature:date,localtime,%d.%m.%Y %H:%M:%S]"
+                }
+            ]
+        },
+        {
+            "margin-top": "55pt",
+            "margin-left": "1pt",
+            "text-align": "left",
+            "font-size": "6",
+            "text": [
+                "Company: ",
+                {
+                    "font": "OpenSans-Semibold.ttf",
+                    "color": "0 0 1",
+                    "text": "[custom:company]"
+                }
+            ]
+        },
+        {
+            "font-size": "4",
+            "font": "Arial",
+            "margin-top": "78pt",
+            "margin-left": "90pt",
+            "text": [ "Powered by:" ]
+        }
+    ]
+}
