@@ -17,7 +17,6 @@ This repository covers two PDF libraries:
 
 To get a trial license key, create a user account at the [Pdftools portal](https://portal.pdf-tools.com/). For more information, refer to [Trial license overview](https://www.pdf-tools.com/docs/licenses/products/pdf-tools-sdk-license/#trial-license-overview).
 
----
 
 ## Organization of samples
 
