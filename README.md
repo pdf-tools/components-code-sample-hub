@@ -19,7 +19,7 @@ To get a trial license key, create a user account at the [Pdftools portal](https
 
 ## Organization of samples
 
-At the top level, you can choose between **Pdftools SDK** samples and **Toolbox add-on**  samples.
+At the top level, you can choose between **Pdftools SDK** samples and **Toolbox add-on** samples.
 Within each of these product areas, you can find the samples grouped **by programming language**.
 
 Each language folder contains:
@@ -54,7 +54,7 @@ This repository has the following structure:
 1. Clone this repository to your local machine:
     ```bash
     git clone https://github.com/pdf-tools/components-code-sample-hub.git
-    cd components-code-sample-hub.git
+    cd components-code-sample-hub
     ```
 1. Navigate to the sample you want to run (for example, `components-code-sample-hub/pdftools_sdk/java/`).
 1. Follow the instructions in the `README.md` of that folder.
