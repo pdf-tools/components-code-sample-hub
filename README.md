@@ -1,6 +1,5 @@
 # Pdftools Sample Code Repository
 
-This repository contains runnable code samples demonstrating how to use the **Pdftools SDK** for common PDF processing tasks such as conversion, merging, signing, and validation, as well as the **Pdftools Toolbox** for more advanced and detailed PDF manipulation. It offers implementations for various use cases across multiple programming languages and is designed to assist developers in seamlessly integrating PDF functionalities into their applications.
 
 PDF processing code samples repository for PDF conversion, archiving, merging, digital signatures, validation, text extraction, and advanced PDF manipulation. Run code samples in C, .NET, Java, Python, and Visual Basic.
 
