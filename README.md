@@ -1,40 +1,60 @@
-# PDF Tools Sample Code Repository
+# Pdftools Sample Code Repository
 
-This repository contains sample projects for the **Pdftools SDK** and the **Toolbox add-on**, providing implementations for various use cases across multiple programming languages.
 
----
+PDF processing code samples repository for PDF conversion, archiving, merging, digital signatures, validation, text extraction, and advanced PDF manipulation. Run code samples in C, .NET, Java, Python, and Visual Basic.
 
-## Organization of Samples
+This repository covers two PDF libraries:
+- **Pdftools SDK**: high-level PDF processing such as conversion, optimization, merging, signing, and validation.
+- **Toolbox add-on**: low-level PDF manipulation such as creating documents from scratch, editing content, extracting information, and managing metadata.
 
-Each use case has its own folder. Within each folder:
-* A general README.md provides instructions on how to execute the sample in each supported programming language.
-* The folder may also contain test files that can be used to test the sample.
+## Licensing
 
-## Repository Structure
+- **Pdftools SDK** doesn't require a license key for evaluation. Without a license key, the SDK adds a watermark to output files.
+- **Toolbox add-on** requires a trial or full license key to run. Without a valid license key, processing fails.
 
-The repository follows this structure:
+**Important:** Toolbox add-on processing fails without a valid license key.
+
+To get a trial license key, create a user account at the [Pdftools portal](https://portal.pdf-tools.com/). For more information, refer to [Trial license overview](https://www.pdf-tools.com/docs/licenses/products/pdf-tools-sdk-license/#trial-license-overview).
+
+
+## Organization of samples
+
+At the top level, you can choose between **Pdftools SDK** samples and **Toolbox add-on** samples.
+Within each of these product areas, you can find the samples grouped **by programming language**.
+
+Each language folder contains:
+- A `README.md` explaining setup and prerequisites
+- Self-contained sample folders, each with:
+    - Source code
+    - PDF test files
+    - A `README.md` explaining what the sample does and how to run it
+
+## Repository structure
+
+This repository has the following structure:
 
 ```
-/toolbox 
-  ├── /<use-case-folder> 
-      ├── README.md                # General use-case description and instructions 
-          input.pdf                # Resources examples that can be used to execute the sample 
-          ├── /<language-folder>   # Language-specific implementations 
-              ├── <sample-code-and-config>
+/pdftools_sdk
+  ├── PROGRAMMING_LANGUAGE
+      ├── /USE_CASE_FOLDER 
+          ├── README.md
+              input.pdf
+              SAMPLE_CODE_AND_CONFIG
 
-/tools-sdk 
-  ├── /<use-case-folder> 
-      ├── README.md
-          input.pdf
-          ├── /<language-folder> 
-              ├── <sample-code-and-config>
+/pdftools_toolbox 
+  ├── PROGRAMMING_LANGUAGE
+      ├── /USE_CASE_FOLDER
+          ├── README.md                
+              input.pdf                
+              SAMPLE_CODE_AND_CONFIG
 ```
 
-## Getting Started
+## Getting started
 
-### Clone the Repository
-Clone this repository to your local machine:
-```bash
-git clone https://github.com/pdf-tools/components-code-sample-hub.git
-cd components-code-sample-hub.git
-```
+1. Clone this repository to your local machine:
+    ```bash
+    git clone https://github.com/pdf-tools/components-code-sample-hub.git
+    cd components-code-sample-hub
+    ```
+1. Navigate to the sample you want to run (for example, `components-code-sample-hub/pdftools_sdk/java/`).
+1. Follow the instructions in the `README.md` of that folder.
