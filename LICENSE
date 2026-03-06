@@ -38,12 +38,13 @@ The following image files are licensed from Adobe Stock:
 - `bird.tif`
 - `bird_bw.tif`
 - `Bottle_CMYK.tif`
-- `IceAlpha.tif`
-- `lena.tif`
 - `butterfly.jpg`
 - `coffee.jpg`
 - `connection.jpg`
-- `imageFolder.jpg`
+- `IceAlpha.tif`
+- `imageFolder.jpg
+- `ideas.tiff`
+- `lena.tif`
 - `mountains.jpg`
 - `multipage.tif`
 - `s3rgbl.tif`
@@ -124,8 +125,8 @@ or any other license applicable to this project.
 
 All rights remain with the respective issuing Certificate Authorities:
 
-- Swisscom
 - GlobalSign
+- Swisscom
 - SwissSign
 
 The certificates are publicly available from their respective Certificate Authorities
