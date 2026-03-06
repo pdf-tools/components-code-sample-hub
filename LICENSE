@@ -53,7 +53,12 @@ The following image files are licensed from Adobe Stock:
 
 The following PDF files contain images licensed from Adobe Stock:
 
+- `BlankFilesEmbedded.pdf`
+- `BlankNone.pdf`
 - `butterfly.pdf`
+- `Form2None.pdf`
+- `FormAnnotated.pdf`
+- `FormNone.pdf`
 - `GraphicsFonts.pdf`
 - `GraphicsMetadata.pdf`
 - `GraphicsNone.pdf`
@@ -62,6 +67,16 @@ The following PDF files contain images licensed from Adobe Stock:
 - `GraphicsSmallPage.pdf`
 - `GraphicsWhiteTextNoTP.pdf`
 - `ImageCollection.pdf`
+- `Invoice_field.pdf`
+- `InvoiceBrokenSignature.pdf`
+- `InvoiceEncrypted(pwd_pdftools).pdf`
+- `InvoiceFonts.pdf`
+- `InvoiceMetadata.pdf`
+- `InvoiceNone.pdf`
+- `InvoicePAdES_B_T.pdf`
+- `InvoicePDFA_2b.pdf`
+- `InvoiceSigned.pdf`
+- `MultipageOutlines.pdf`
 - `TaggedPDF.pdf`
 
 See `LICENSE.Adobe` for the full license text.
