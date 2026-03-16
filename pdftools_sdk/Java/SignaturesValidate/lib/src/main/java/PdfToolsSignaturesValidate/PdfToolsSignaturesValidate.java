@@ -174,7 +174,16 @@ public class PdfToolsSignaturesValidate
                     System.out.println("Unable to validate document Revision: " + ex.getMessage());
                 }
 
-                printContent(result.getSignatureContent(), result.getSignatureField().getFullRevisionCovered());
+                Boolean isFullRevisionCovered = null;
+                try
+                {
+                    isFullRevisionCovered = result.getSignatureField().getIsFullRevisionCovered();
+                }
+                catch (Exception ex)
+                {
+                    System.out.println("Unable to determine full revision coverage: " + ex.getMessage());
+                }
+                printContent(result.getSignatureContent(), isFullRevisionCovered);
                 System.out.println();
             });
 
