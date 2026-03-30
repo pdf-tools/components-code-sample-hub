@@ -35,5 +35,5 @@ Each folder contains a self-contained sample with:
     git clone https://github.com/pdf-tools/pdftools-toolbox-examples-java.git
     cd pdftools-toolbox-examples-java
     ```
-1. Navigate to the sample you want to run.
+1. Choose a sample you want to run and navigate to its subfolder.
 1. Follow the instructions in the `README.md` of that folder.
